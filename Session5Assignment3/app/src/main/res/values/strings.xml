@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AcadGild Courses</string>
+    <string name="title_activity_android">AndroidActivity</string>
+    <string name="title_activity_java">JavaActivity</string>
+    <string name="title_activity_frontend">FrontendActivity</string>
+    <string name="title_activity_linux">LinuxActivity</string>
+</resources>

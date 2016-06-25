@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.funapp.session5assignment3.MainCourse">
+
+<!-- Android -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="#fcfdf8">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android Course"
+            android:id="@+id/buttonAndroid"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="#940e8737"
+            android:padding="10dp"
+            android:textSize="20sp" />
+    </RelativeLayout>
+<!--Java -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Java Programming"
+            android:id="@+id/buttonJava"
+            android:background="#94ce329a"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+<!-- Frontend Web Development-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Frontend Web Development"
+            android:id="@+id/buttonFront"
+            android:background="#94e98705"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+<!--Linux Fundamentals-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Linux Fundamentals"
+            android:id="@+id/buttonLinux"
+            android:background="#943537c2"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>
